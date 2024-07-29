@@ -2,7 +2,7 @@
 
 # **DataSalud: Exploración de Reseñas de Medicamentos y Análisis de Sentimientos**
 
-# Introducción
+## Introducción
 
 El análisis de reseñas de medicamentos es fundamental para comprender la experiencia de los usuarios y evaluar la efectividad y satisfacción de los tratamientos farmacéuticos. Con el auge de plataformas en línea donde los consumidores comparten sus opiniones sobre medicamentos, se ha generado una gran cantidad de datos valiosos que pueden ser explotados para obtener insights significativos.  
 
@@ -44,10 +44,10 @@ Para visualizar los resultados de los análisis realizados, hemos creado un dash
 
 Nuestro dashboard en Power BI muestra una variedad de gráficos e informes que resumen los resultados del análisis exploratorio de datos y el análisis de sentimientos. Aquí se pueden visualizar tendencias, distribuciones de efectos secundarios y comparaciones entre diferentes categorías de medicamentos.
 
-**Capturas de Pantalla del Dashboard:**
+**Muestra del Dashboard:**
 
-![Dashboard Screenshot 1](ruta/a/tu/imagen1.png)
-![Dashboard Screenshot 2](ruta/a/tu/imagen2.png)
+![Dashboard Screenshot 1](screenshots/powerbi1.jpg)
+![Dashboard Screenshot 2](screenshots/powerbi2.jpg)
 
 **Link al Dashboard:**
 
@@ -65,6 +65,17 @@ Hemos desarrollado una aplicación sencilla que utiliza el modelo predictivo de 
 **Link a la Aplicación:**
 
 [Acceder a la Aplicación Predictiva](https://link.a.tu.aplicacion)
+
+## Colaboradores
+
+A continuación, se presentan los miembros del equipo que contribuyeron a este proyecto, junto con sus roles y enlaces a sus perfiles de GitHub y LinkedIn.
+
+| Nombre                 | Rol                        | GitHub                          | LinkedIn                                                                         |
+|------------------------|----------------------------|---------------------------------|----------------------------------------------------------------------------------|
+| Kalaumari Mayoral Peña | Project Manager - Data Scientist | [GitHub](https://github.com/kalaumari) | [LinkedIn](https://www.linkedin.com/in/kalaumari-mayoral-pe%C3%B1a-48a49071/)     |
+| Yeimmy Morales         | Data Scientist             | [GitHub](https://github.com/yeimmygit11) | [LinkedIn](https://www.linkedin.com/in/yeimmy-morales)                          |
+| Gilmer Torres          | Data Analyst               | [GitHub](https://github.com/gilmer-enrique) | [LinkedIn](https://www.linkedin.com/in/gilmer-enrique-torres-ben%C3%ADtez-5b00b786/) |
+| Miriam Aguilar         | Data Analyst               | [GitHub](https://github.com/MiriamAguilarP13) | [LinkedIn](https://www.linkedin.com/in/miriampineda02/)                         |
 
 
 
