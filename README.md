@@ -12,19 +12,60 @@ El objetivo principal de este proyecto es analizar las opiniones de los clientes
 
 Al proporcionar insights valiosos sobre la experiencia del usuario con diferentes medicamentos y afecciones, este análisis puede ayudar a mejorar la toma de decisiones en la industria farmacéutica y contribuir a un mejor entendimiento de la satisfacción del paciente y los posibles efectos secundarios de los tratamientos.  
 
-En las siguientes secciones, detallaremos los pasos metodológicos para el análisis de datos, incluyendo la exploración inicial del dataset, el análisis descriptivo y el modelado predictivo, así como la visualización de resultados y la interpretación de insights clave. 
+## Stack Tech
 
-# Diccionario de datos
-Se tiene un total de 9 columnas:  
+- **Lenguaje de programación:** Python
+- **Librerías:** Pandas, Numpy, Matplotlib, Plotly, nltk, Sklearn
+- **IDE:** Colab Notebooks como entorno de desarrollo
+- **Visualización de datos:** Dashboard de Power BI
+- **Gestión del código fuente:** GitHub para desarrollo colaborativo en equipo
+- **Gestión de equipo:** Google sheets 
 
-El diccionario de los datos es:  
-    + `MedicineName:` Nombre del medicamento.  
-    + `MedicineFor:` para que tipo de condición es la medicina.  
-    + `ReviewDate:` Fecha en la que se hizo la reseña.  
-    + `UserName:` Nombre del usuario o usuaria.  
-    + `IntakeTime:` Periodo de tiempo en el que se tomó la medicina.  
-    + `Reviews:` Reseña del usuario o usuaria.  
-    + `ReviewLength:` Longitud de la reseña.  
-    + `Rating:` calificación que le da el usuario/a al medicamento.    
-    + `NumberOfLikes:` Número de likes que recibió el medicamento. 
+## Estructura del Proyecto
+
+El proyecto se divide en dos archivos `.ipynb` principales:
+
+1. **EDA+SideEffects.ipynb:**
+   - **Análisis Exploratorio de Datos (EDA):** Se realizó un análisis exploratorio de los datos.
+   - **Selección de Categorías:** Se seleccionaron las 10 categorías de medicamentos más relevantes en el dataset:
+     - 'Birth Control', 'Depression', 'Anxiety', 'Weight Loss', 'Pain', 'Acne', 'Insomnia', 'Bipolar Disorder', 'Diabetes, Type 2', 'High Blood Pressure'
+   - **Análisis de Efectos Secundarios:** Se buscaron palabras clave en los comentarios para identificar efectos secundarios como:
+     - 'nausea', 'headache', 'dizziness', 'fatigue', 'drowsiness', 'diarrhea'
+
+2. **AnalisisSentimientos.ipynb:**
+   - **Análisis de Sentimientos:** Utilizamos la librería nltk para realizar el análisis de sentimientos de las reseñas de las 10 categorías seleccionadas.
+   - **Algoritmos Utilizados:** Se emplearon TextBlob, VADER y BERT para el análisis de sentimientos.
+  
+## Visualización de Resultados
+
+Para visualizar los resultados de los análisis realizados, hemos creado un dashboard en Power BI y una pequeña aplicación que despliega el modelo predictivo de BERT.
+
+### Dashboard en Power BI
+
+Nuestro dashboard en Power BI muestra una variedad de gráficos e informes que resumen los resultados del análisis exploratorio de datos y el análisis de sentimientos. Aquí se pueden visualizar tendencias, distribuciones de efectos secundarios y comparaciones entre diferentes categorías de medicamentos.
+
+**Capturas de Pantalla del Dashboard:**
+
+![Dashboard Screenshot 1](ruta/a/tu/imagen1.png)
+![Dashboard Screenshot 2](ruta/a/tu/imagen2.png)
+
+**Link al Dashboard:**
+
+[Acceder al Dashboard en Power BI](https://link.a.tu.dashboard)
+
+### Aplicación Predictiva
+
+Hemos desarrollado una aplicación sencilla que utiliza el modelo predictivo de BERT para analizar nuevas reseñas de medicamentos. Esta app permite a los usuarios ingresar una reseña y obtener un análisis de sentimiento en tiempo real.
+
+**Capturas de Pantalla de la Aplicación:**
+
+![App Screenshot 1](ruta/a/tu/imagen3.png)
+![App Screenshot 2](ruta/a/tu/imagen4.png)
+
+**Link a la Aplicación:**
+
+[Acceder a la Aplicación Predictiva](https://link.a.tu.aplicacion)
+
+
+
 
