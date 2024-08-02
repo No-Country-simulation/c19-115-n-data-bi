@@ -52,7 +52,7 @@ Nuestro dashboard en Power BI muestra una variedad de gráficos e informes que r
 **Link al Dashboard:**
 
 [Link de descarga del Power BI](https://seagob-my.sharepoint.com/:u:/g/personal/enrique_torres_sea_gob_cl/EU6lV3nhT6NKvcDSe--7J5IBZfB-lWn-QmYxYCSGctGonw?e=jWbLO9)
-[Link de inserción de contenido del Power BI](https://seagob-my.sharepoint.com/:u:/g/personal/enrique_torres_sea_gob_cl/EU6lV3nhT6NKvcDSe--7J5IBZfB-lWn-QmYxYCSGctGonw?e=jWbLO9)
+[Link de inserción de contenido del Power BI](https://app.powerbi.com/reportEmbed?reportId=c979682a-c295-4cf5-8620-33e35967e275&autoAuth=true&ctid=b71dc67e-f571-4846-9db8-1264f14ea88b)
 
 ### Aplicación Predictiva
 
