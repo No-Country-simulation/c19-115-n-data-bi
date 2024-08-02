@@ -38,7 +38,7 @@ El proyecto se divide en dos archivos `.ipynb` principales:
   
 ## Visualización de Resultados
 
-Para visualizar los resultados de los análisis realizados, hemos creado un dashboard en Power BI y una pequeña aplicación que despliega el modelo predictivo de BERT.
+Para visualizar los resultados de los análisis realizados, hemos creado un dashboard en Power BI y una pequeña aplicación que despliega los modelos predictivos seleccionados.
 
 ### Dashboard en Power BI
 
@@ -51,20 +51,21 @@ Nuestro dashboard en Power BI muestra una variedad de gráficos e informes que r
 
 **Link al Dashboard:**
 
-[Acceder al Dashboard en Power BI](https://link.a.tu.dashboard)
+[Link de descarga del Power BI](https://seagob-my.sharepoint.com/:u:/g/personal/enrique_torres_sea_gob_cl/EU6lV3nhT6NKvcDSe--7J5IBZfB-lWn-QmYxYCSGctGonw?e=jWbLO9)
+[Link de inserción de contenido del Power BI](https://seagob-my.sharepoint.com/:u:/g/personal/enrique_torres_sea_gob_cl/EU6lV3nhT6NKvcDSe--7J5IBZfB-lWn-QmYxYCSGctGonw?e=jWbLO9)
 
 ### Aplicación Predictiva
 
-Hemos desarrollado una aplicación sencilla que utiliza el modelo predictivo de BERT para analizar nuevas reseñas de medicamentos. Esta app permite a los usuarios ingresar una reseña y obtener un análisis de sentimiento en tiempo real.
+Hemos desarrollado una aplicación sencilla que utiliza el modelo predictivo de TextBlob para analizar nuevas reseñas de medicamentos. Esta app permite a los usuarios ingresar una reseña y obtener un análisis de sentimiento en tiempo real.
 
 **Capturas de Pantalla de la Aplicación:**
 
-![App Screenshot 1](ruta/a/tu/imagen3.png)
-![App Screenshot 2](ruta/a/tu/imagen4.png)
+![App Screenshot 1](screenshots/app1.png)
+![App Screenshot 2](screenshots/app2.jpg)
 
 **Link a la Aplicación:**
 
-[Acceder a la Aplicación Predictiva](https://link.a.tu.aplicacion)
+[Acceder a la Aplicación Predictiva](https://jz9v4d-kalaumari-mayoral0pe0a.shinyapps.io/datasalud/)
 
 ## Colaboradores
 
